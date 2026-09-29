@@ -63,3 +63,7 @@ Everything under `public/` is what gets published.
 - `public/_headers`: caching and security headers for Cloudflare Pages
 - `tools/make_logo.py`: logo generator (not published)
 - `wrangler.jsonc`: Cloudflare Pages config
+
+## Hosting
+
+Cloudflare Pages, connected to this GitHub repo. Every push to `master` deploys to https://synelle.me; other branches get preview URLs. There's no build command: Pages publishes `public/` as set in `wrangler.jsonc`.
