@@ -1,0 +1,7 @@
+// Cloudflare Pages config. This file is the source of truth for these settings;
+// the dashboard shows them read-only.
+{
+  "name": "synelle",
+  "pages_build_output_dir": "./public",
+  "compatibility_date": "2026-09-29"
+}
